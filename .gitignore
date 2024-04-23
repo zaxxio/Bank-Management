@@ -1,12 +1,18 @@
-/.idea/
-/CQRS.Command.Api/bin
-/CQRS.Command.Api/obj
+# Ignore .idea directory in all projects
+.idea/
 
-/CQRS.Common/bin
-/CQRS.Common/obj
+# Ignore build output directories for CQRS.Command.Api project
+/CQRS.Command.Api/bin/
+/CQRS.Command.Api/obj/
 
-/CQRS.Core/bin
-/CQRS.Core/obj
+# Ignore build output directories for CQRS.Common project
+/CQRS.Common/bin/
+/CQRS.Common/obj/
 
-/CQRS.Query.Api/bin
-CQRS.Query.Api/obj
+# Ignore build output directories for CQRS.Core project
+/CQRS.Core/bin/
+/CQRS.Core/obj/
+
+# Ignore build output directories for CQRS.Query.Api project
+/CQRS.Query.Api/bin/
+/CQRS.Query.Api/obj/
