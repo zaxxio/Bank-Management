@@ -1,1 +1,12 @@
-/.idea
+/.idea/
+/CQRS.Command.Api/bin
+/CQRS.Command.Api/obj
+
+/CQRS.Common/bin
+/CQRS.Common/obj
+
+/CQRS.Core/bin
+/CQRS.Core/obj
+
+/CQRS.Query.Api/bin
+CQRS.Query.Api/obj
