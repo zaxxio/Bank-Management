@@ -16,3 +16,7 @@
 # Ignore build output directories for CQRS.Query.Api project
 /CQRS.Query.Api/bin/
 /CQRS.Query.Api/obj/
+
+# Ignore all directories and subdirectories under bin/ and obj/ for each project
+**/bin/
+**/obj/
