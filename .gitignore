@@ -1,5 +1,5 @@
 # Ignore .idea directory in all projects
-.idea/
+/.idea/
 
 # Ignore build output directories for CQRS.Command.Api project
 /CQRS.Command.Api/bin/
