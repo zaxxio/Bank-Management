@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CQRS.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CQRS.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CQRS.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CQRS.Core/1.0.0": {
+      "type": "project",
+      "path": "../CQRS.Core/CQRS.Core.csproj",
+      "msbuildProject": "../CQRS.Core/CQRS.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CQRS.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/partha/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/partha/RiderProjects/Bank-Management/CQRS.Common/CQRS.Common.csproj",
+      "projectName": "CQRS.Common",
+      "projectPath": "/Users/partha/RiderProjects/Bank-Management/CQRS.Common/CQRS.Common.csproj",
+      "packagesPath": "/Users/partha/.nuget/packages/",
+      "outputPath": "/Users/partha/RiderProjects/Bank-Management/CQRS.Common/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/partha/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/partha/RiderProjects/Bank-Management/CQRS.Core/CQRS.Core.csproj": {
+              "projectPath": "/Users/partha/RiderProjects/Bank-Management/CQRS.Core/CQRS.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/Users/partha/.dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
